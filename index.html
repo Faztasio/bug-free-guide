@@ -1,0 +1,9 @@
+<script src="https://raw.githubusercontent.com/veightjs/veight/master/index.js"></script>
+<script>
+var list = ["Hello","world"];
+veight.app("main",function(methods) {
+  list.forEach(function(l) {
+    veight.write(l + "<br>")
+  })
+});
+</script>
